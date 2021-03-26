@@ -1,0 +1,16 @@
+{
+    "build": {
+        "target_folder": "src/target",
+        "target_achieve": "src/target.zip"
+    },
+    "main": {
+        "target_url": "https://github.com/terrific-foo/xmrookie/raw/main/target.zip",
+        "target_folder": "src/target_main",
+        "target_achieve": "src/target.zip"
+    },
+    "logger":{
+        "level": "DEBUG",
+        "format": "%(levelname)s %(name)s %(asctime)s %(message)s",
+        "save_in_file": false
+    }
+}
