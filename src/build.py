@@ -1,4 +1,3 @@
-import os
 import json
 from shutil import make_archive
 from pathlib import Path
@@ -6,7 +5,7 @@ from pathlib import Path
 from logger import Logger
 
 
-_CONFIG_PATH = 'src/config.json'
+_CONFIG_PATH = 'config.json'
 
 _PURE_NAME = Path(__file__).stem
 _TARGET_FOLDER = json.load(open(_CONFIG_PATH, 'r'))[_PURE_NAME]['target_folder']

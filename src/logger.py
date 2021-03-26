@@ -2,7 +2,7 @@ import logging
 import json
 from pathlib import Path
 
-CONFIG_PATH = 'src/config.json'
+CONFIG_PATH = 'config.json'
 
 PURE_NAME = Path(__file__).stem
 _LEVEL = json.load(open(CONFIG_PATH, 'r'))[PURE_NAME]['level']

@@ -1,12 +1,12 @@
 {
     "build": {
-        "target_folder": "src/target",
-        "target_zip": "src/target.zip"
+        "target_folder": "target",
+        "target_zip": "target.zip"
     },
     "main": {
         "target_url": "https://github.com/terrific-foo/xmrookie/blob/main/src/target.zip?raw=true",
-        "target_folder": "src/",
-        "target_zip": "src/target.zip"
+        "target_folder": "target",
+        "target_zip": "target.zip"
     },
     "logger":{
         "level": "DEBUG",

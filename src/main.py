@@ -6,7 +6,7 @@ from urllib import request
 from logger import Logger
 
 
-_CONFIG_PATH = 'src/config.json'
+_CONFIG_PATH = 'config.json'
 
 _PURE_NAME = Path(__file__).stem
 _TARGET_URL = json.load(open(_CONFIG_PATH, 'r'))[_PURE_NAME]['target_url']
